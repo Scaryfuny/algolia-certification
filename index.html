@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InstantSearch test for Vanilla JS</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch-theme-algolia.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="input-container">
+        <input id="search-input" placeholder="Search here..." />
+      </div>
+    </header>
+
+    <main>
+      <div id="left-column"></div>
+
+      <div id="right-column">
+        <div id="hits"></div>
+        <div id="pagination"></div>
+      </div>
+    </main>
+
+    <!-- DO NOT EDIT BELOW -->
+    <script src="app.js"></script>
+  </body>
+</html>
